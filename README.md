@@ -11,12 +11,17 @@ An advanced NLP project for analyzing Union Budget data from 2015-2025 with spec
 ### 📈 Budget Trend Analyzer
 *Interactive visualization of budget allocation trends across sectors and years*
 
-[Screenshot will be added here - showing trend lines, sector selection, and growth statistics]
+![Trend Analysis - Overview](images/Trend1.png)
+![Trend Analysis - Multi-Sector Comparison](images/Trend2.png)
+![Trend Analysis - Growth Statistics](images/Trend3.png)
 
 ### ⚖️ Budget Comparison Tool  
 *Sector-wise and year-over-year budget allocation comparisons*
 
-[Screenshot will be added here - showing comparison charts, filters, and analysis results]
+![Comparison Tool - Sector Analysis](images/compare1.png)
+![Comparison Tool - Year vs Year](images/compare2.png)
+![Comparison Tool - Data Explorer](images/compare3.png)
+![Comparison Tool - Query Search](images/compare4.png)
 
 ### 1. Budget Trend Analyzer 📈
 - **Purpose**: Visualize budget allocation trends across years
@@ -64,6 +69,14 @@ An advanced NLP project for analyzing Union Budget data from 2015-2025 with spec
 ├── setup.bat                     # Easy installation script
 ├── requirements.txt              # Python dependencies
 ├── Union_Budget_2015_to_2025.txt # Source budget data
+├── images/                       # Screenshot documentation
+│   ├── Trend1.png               # Trend analyzer screenshots
+│   ├── Trend2.png
+│   ├── Trend3.png
+│   ├── compare1.png             # Comparison tool screenshots
+│   ├── compare2.png
+│   ├── compare3.png
+│   └── compare4.png
 └── vectorstore/                  # Processed embeddings
     ├── index.faiss              # FAISS vector index
     └── index.pkl                # Text chunks
