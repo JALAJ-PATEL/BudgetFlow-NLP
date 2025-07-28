@@ -35,12 +35,14 @@ An advanced NLP project for analyzing Union Budget data from 2015-2025 with spec
 
 3. **Run BudgetFlow NLP**
    ```bash
-   # Option 1: Use the launcher
+   # Option 1: Unified app (RECOMMENDED FOR DEPLOYMENT)
+   streamlit run app.py
+   
+   # Option 2: Use the launcher
    run_apps.bat
    
-   # Option 2: Run directly
+   # Option 3: Run individual tools
    streamlit run budget_trend_analyzer.py
-   # OR
    streamlit run budget_comparison_tool.py
    ```
 
