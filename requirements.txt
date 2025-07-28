@@ -1,0 +1,11 @@
+# Core NLP and Data Processing
+faiss-cpu
+sentence-transformers
+pandas
+numpy
+
+# Streamlit and Visualization
+streamlit
+matplotlib
+seaborn
+plotly
