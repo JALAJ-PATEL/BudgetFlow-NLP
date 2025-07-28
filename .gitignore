@@ -163,9 +163,12 @@ cython_debug/
 
 # Large data files
 vectorstore/
-*.txt
+Union_Budget_*.txt
 *.pkl
 *.faiss
+
+# Allow requirements.txt (important for project setup)
+!requirements.txt
 
 # OS generated files
 .DS_Store
