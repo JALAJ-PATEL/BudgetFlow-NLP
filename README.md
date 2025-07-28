@@ -6,6 +6,18 @@ An advanced NLP project for analyzing Union Budget data from 2015-2025 with spec
 
 **BudgetFlow NLP** transforms complex Union Budget documents into actionable insights using Natural Language Processing. Instead of a general-purpose chatbot, this project provides **two specialized analytical tools** that deliver reliable, measurable results for budget analysis.
 
+## 📸 Screenshots
+
+### 📈 Budget Trend Analyzer
+*Interactive visualization of budget allocation trends across sectors and years*
+
+[Screenshot will be added here - showing trend lines, sector selection, and growth statistics]
+
+### ⚖️ Budget Comparison Tool  
+*Sector-wise and year-over-year budget allocation comparisons*
+
+[Screenshot will be added here - showing comparison charts, filters, and analysis results]
+
 ### 1. Budget Trend Analyzer 📈
 - **Purpose**: Visualize budget allocation trends across years
 - **Features**: 
@@ -35,13 +47,10 @@ An advanced NLP project for analyzing Union Budget data from 2015-2025 with spec
 
 3. **Run BudgetFlow NLP**
    ```bash
-   # Option 1: Unified app (RECOMMENDED FOR DEPLOYMENT)
-   streamlit run app.py
-   
-   # Option 2: Use the launcher
+   # Option 1: Use the launcher
    run_apps.bat
    
-   # Option 3: Run individual tools
+   # Option 2: Run individual tools directly
    streamlit run budget_trend_analyzer.py
    streamlit run budget_comparison_tool.py
    ```
@@ -49,8 +58,8 @@ An advanced NLP project for analyzing Union Budget data from 2015-2025 with spec
 ## 📁 Project Structure
 
 ```
-├── budget_trend_analyzer.py      # BudgetFlow NLP Trend Analyzer
-├── budget_comparison_tool.py     # BudgetFlow NLP Comparison Tool
+├── budget_trend_analyzer.py      # Interactive trend analysis tool
+├── budget_comparison_tool.py     # Sector comparison tool
 ├── run_apps.bat                  # Application launcher
 ├── setup.bat                     # Easy installation script
 ├── requirements.txt              # Python dependencies
